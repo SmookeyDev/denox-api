@@ -1,0 +1,5 @@
+python-decouple
+itertools
+sklearn
+tornado
+pymongo

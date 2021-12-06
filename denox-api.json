@@ -1,0 +1,105 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-12-05T15:53:32.612Z",
+  "__export_source": "insomnia.desktop.app:v2021.6.0",
+  "resources": [
+    {
+      "_id": "req_c57f878604054220bfc188a17945427b",
+      "parentId": "wrk_2372411f27b243f99185fa20d8f7dd39",
+      "modified": 1638718206754,
+      "created": 1638716296535,
+      "url": "http://localhost:8888/api/calcula_metricas",
+      "name": "/api/calcula_metricas",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"serial\":\"ac8251468654944f2abedb9dbfe3b700\",\n  \"datahora_inicio\":\"01/04/2019 06:15:30\",\n  \"datahora_fim\":\"03/04/2019 01:50:29\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_079c719b691c4f308c58ec3e9223468a"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1638716855065,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_2372411f27b243f99185fa20d8f7dd39",
+      "parentId": null,
+      "modified": 1638716244810,
+      "created": 1638716244810,
+      "name": "denox-api.yaml",
+      "description": "",
+      "scope": "design",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_ceefc6b65e0f4ca59d8c0ec76b6c65df",
+      "parentId": "wrk_2372411f27b243f99185fa20d8f7dd39",
+      "modified": 1638716865954,
+      "created": 1638716854920,
+      "url": "http://localhost:8888/api/retorna_metricas",
+      "name": "/api/retorna_metricas",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1638716855015,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_12e62ac525cdd20671658f209c0ca44cf8839752",
+      "parentId": "wrk_2372411f27b243f99185fa20d8f7dd39",
+      "modified": 1638716244818,
+      "created": 1638716244818,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1638716244818,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_12e62ac525cdd20671658f209c0ca44cf8839752",
+      "parentId": "wrk_2372411f27b243f99185fa20d8f7dd39",
+      "modified": 1638716244820,
+      "created": 1638716244820,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_cb8dc1b70d49442f8cc673d52b3a4a11",
+      "parentId": "wrk_2372411f27b243f99185fa20d8f7dd39",
+      "modified": 1638716244814,
+      "created": 1638716244814,
+      "fileName": "denox-api.yaml",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
